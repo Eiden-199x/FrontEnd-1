@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Front-End</title>
+    <link
+      href="https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="./styles.css" />
+  </head>
+  <body>
+    <section class="container">
+      <div class="body">
+        <div class="images">
+          <div class="box"></div>
+          <div class="circle"></div>
+        </div>
+        <div class="title-artist">
+          <h1>All Too Well (Taylor's Version)</h1>
+          <p>Taylor Swift</p>
+        </div>
+        <div class="music-range">
+          <span class="current-time">00:00</span>
+          <span class="end-time">10:13</span>
+          <div>
+            <input type="range" value="0" />
+          </div>
+        </div>
+        <div class="controls">
+          <i id="previous" class="bx bx-skip-previous button"></i>
+          <i id="play-resume" class="bx bx-play button"></i>
+          <i id="next" class="bx bx-skip-next button"></i>
+        </div>
+      </div>
+    </section>
+
+    <script src="./script.js"></script>
+  </body>
+</html>
